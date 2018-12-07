@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  FixRela
 //
 //  Created by Alex Nadein on 12/7/18.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class HelpVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
+    
 }
 

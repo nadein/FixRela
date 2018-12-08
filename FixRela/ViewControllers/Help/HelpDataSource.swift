@@ -9,7 +9,8 @@
 import UIKit
 
 private struct Constants {
-    static let numberOfHelpCategories: Int = 5
+    static let rowHeight: CGFloat = 60
+    static let numberOfHelpCategories: Int = 4
     static let titles = ["help_topic_first".localized,
                          "help_topic_second".localized,
                          "help_topic_third".localized,
@@ -18,6 +19,8 @@ private struct Constants {
 }
 
 class HelpDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
+    // MARK: - Properties
+    public weak var delegate: NavigationDelegate?
     
     // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,8 +31,18 @@ class HelpDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeue(HelpTopicCell.self, for: indexPath) as HelpTopicCell
         let title = Constants.titles[indexPath.row]
         cell.setupWithTitle(title)
+        cell.selectionStyle = .none
         return cell
     }
     
+    // MARK: - UITableViewDelegate
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return Constants.rowHeight
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.setSelected(false, animated: false)
+        self.delegate?.navigateToDetails(indexPath)
+    }
 
 }

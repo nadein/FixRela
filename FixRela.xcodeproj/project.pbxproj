@@ -27,6 +27,15 @@
 		FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9314821BBCB79008A1145 /* LoginVC.swift */; };
 		FAE9314C21BBD088008A1145 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314B21BBD088008A1145 /* Login.storyboard */; };
 		FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314D21BBD10A008A1145 /* Registration.storyboard */; };
+		FAE9315221BBF8D9008A1145 /* HelpContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315121BBF8D9008A1145 /* HelpContentVC.swift */; };
+		FAE9315421BBF8EA008A1145 /* HelpDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315321BBF8EA008A1145 /* HelpDetailsVC.swift */; };
+		FAE9315621BBF929008A1145 /* HelpContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315521BBF929008A1145 /* HelpContent.storyboard */; };
+		FAE9315821BBF93D008A1145 /* HelpDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315721BBF93D008A1145 /* HelpDetails.storyboard */; };
+		FAE9315A21BBFD32008A1145 /* HelpDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315921BBFD32008A1145 /* HelpDetailsDataSource.swift */; };
+		FAE9315C21BBFDF9008A1145 /* HelpContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */; };
+		FAE9315F21BBFE5F008A1145 /* HelpDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315D21BBFE5F008A1145 /* HelpDetailsCell.swift */; };
+		FAE9316021BBFE5F008A1145 /* HelpDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315E21BBFE5F008A1145 /* HelpDetailsCell.xib */; };
+		FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9316121BC0311008A1145 /* NavigationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +61,15 @@
 		FAE9314821BBCB79008A1145 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FAE9314B21BBD088008A1145 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FAE9314D21BBD10A008A1145 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		FAE9315121BBF8D9008A1145 /* HelpContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContentVC.swift; sourceTree = "<group>"; };
+		FAE9315321BBF8EA008A1145 /* HelpDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsVC.swift; sourceTree = "<group>"; };
+		FAE9315521BBF929008A1145 /* HelpContent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpContent.storyboard; sourceTree = "<group>"; };
+		FAE9315721BBF93D008A1145 /* HelpDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpDetails.storyboard; sourceTree = "<group>"; };
+		FAE9315921BBFD32008A1145 /* HelpDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsDataSource.swift; sourceTree = "<group>"; };
+		FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContentProvider.swift; sourceTree = "<group>"; };
+		FAE9315D21BBFE5F008A1145 /* HelpDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsCell.swift; sourceTree = "<group>"; };
+		FAE9315E21BBFE5F008A1145 /* HelpDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpDetailsCell.xib; sourceTree = "<group>"; };
+		FAE9316121BC0311008A1145 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,8 @@
 		FAE9310021BAFE44008A1145 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9315021BBF8C1008A1145 /* HelpContent */,
+				FAE9314F21BBF8C1008A1145 /* HelpDetails */,
 				FAE9314721BBCB55008A1145 /* Login */,
 				FAE9314621BBCB55008A1145 /* Registration */,
 				FAE9311921BB2887008A1145 /* Help */,
@@ -160,6 +180,8 @@
 			children = (
 				FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */,
 				FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */,
+				FAE9315D21BBFE5F008A1145 /* HelpDetailsCell.swift */,
+				FAE9315E21BBFE5F008A1145 /* HelpDetailsCell.xib */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -194,6 +216,7 @@
 		FAE9312821BBA8EB008A1145 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9316121BC0311008A1145 /* NavigationDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -217,6 +240,8 @@
 				FAE9314D21BBD10A008A1145 /* Registration.storyboard */,
 				FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */,
 				FAE9312F21BBA8F7008A1145 /* Help.storyboard */,
+				FAE9315721BBF93D008A1145 /* HelpDetails.storyboard */,
+				FAE9315521BBF929008A1145 /* HelpContent.storyboard */,
 				FAE9313021BBA8F7008A1145 /* Main.storyboard */,
 			);
 			path = Storyboards;
@@ -259,6 +284,24 @@
 				FAE9314821BBCB79008A1145 /* LoginVC.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		FAE9314F21BBF8C1008A1145 /* HelpDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9315321BBF8EA008A1145 /* HelpDetailsVC.swift */,
+				FAE9315921BBFD32008A1145 /* HelpDetailsDataSource.swift */,
+			);
+			path = HelpDetails;
+			sourceTree = "<group>";
+		};
+		FAE9315021BBF8C1008A1145 /* HelpContent */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9315121BBF8D9008A1145 /* HelpContentVC.swift */,
+				FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */,
+			);
+			path = HelpContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,13 +362,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9316021BBFE5F008A1145 /* HelpDetailsCell.xib in Resources */,
 				FAE9313721BBA8F7008A1145 /* LaunchScreen.storyboard in Resources */,
 				FAE9313921BBA8F7008A1145 /* Main.storyboard in Resources */,
 				FAE9314521BBB91F008A1145 /* HelpTopicCell.xib in Resources */,
 				FAE9313D21BBADE1008A1145 /* Localizable.strings in Resources */,
+				FAE9315821BBF93D008A1145 /* HelpDetails.storyboard in Resources */,
 				FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */,
 				FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */,
 				FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */,
+				FAE9315621BBF929008A1145 /* HelpContent.storyboard in Resources */,
 				FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */,
 				FAE9313821BBA8F7008A1145 /* Help.storyboard in Resources */,
 				FAE9314C21BBD088008A1145 /* Login.storyboard in Resources */,
@@ -339,16 +385,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9315F21BBFE5F008A1145 /* HelpDetailsCell.swift in Sources */,
 				FAE9314421BBB91F008A1145 /* HelpTopicCell.swift in Sources */,
 				FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */,
 				FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */,
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
 				FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */,
+				FAE9315221BBF8D9008A1145 /* HelpContentVC.swift in Sources */,
+				FAE9315421BBF8EA008A1145 /* HelpDetailsVC.swift in Sources */,
 				FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */,
 				FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */,
+				FAE9315A21BBFD32008A1145 /* HelpDetailsDataSource.swift in Sources */,
 				FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */,
 				FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */,
 				FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */,
+				FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */,
+				FAE9315C21BBFDF9008A1145 /* HelpContentProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

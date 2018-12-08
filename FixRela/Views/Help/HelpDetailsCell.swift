@@ -1,5 +1,5 @@
 //
-//  HelpTopicCell.swift
+//  HelpDetailsCell.swift
 //  FixRela
 //
 //  Created by Alex Nadein on 12/8/18.
@@ -8,25 +8,23 @@
 
 import UIKit
 
-class HelpTopicCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
-// MARK: - Outlets
-    @IBOutlet weak private var titleLabel: UILabel!
+class HelpDetailsCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
+
+    // MARK: - Outlet
+    @IBOutlet weak var titleLabel: UILabel!
     
-// MARK: - UITableViewCell
+    
+    // MARK: - HelpDetailsCell
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.accessoryType = .disclosureIndicator
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
-    // MARK: - Public method
+    // MARK: - Public methods
     public func setupWithTitle(_ title: String) {
         titleLabel.text = title
     }
-    
 }

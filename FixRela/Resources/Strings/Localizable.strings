@@ -13,14 +13,32 @@
 // Help screen
 "help_screen_nav_title" = "Need help?";
 
-"help_topic_first" = "First";
-"help_topic_second" = "Second";
-"help_topic_third" = "Third";
-"help_topic_fourth" = "Fourth";
+"help_topic_first" = "😍 Fall in Love";
+"help_topic_second" = "💑 In Love";
+"help_topic_third" = "💒 Married";
+"help_topic_fourth" = "🏳️‍🌈 New topics coming soon";
 "help_topic_fifth" = "Fifth";
 
 // Help details
+"fell_title_1" = "The Early Stages of Falling in Love";
+"fell_title_2" = "I've had an affair, how do I tell my partner?";
+"fell_title_3" = "What is the best way to express your feelings to a girl if you are a shy guy?";
+"fell_title_4" = "How To Get Over Your First Love The Right Way";
+"fell_title_5" = "10 Ways to Create a Strong, Intimate Relationship";
+"fell_title_6" = "10 first date tips: advice from the experts";
 
+"inlove_title_1" = "Rewire Your Sense of Hurt or Shame in Painful Relationship Interactions";
+"inlove_title_2" = "Time to Rethink What Thought You Knew About Romantic Relationships and Affairs";
+"inlove_title_3" = "Top 3 Things Couples Fight About and Other Things You Should Know";
+"inlove_title_4" = "Why do people cheat?";
+"inlove_title_5" = "My partner and I don't talk anymore";
+"inlove_title_6" = "My partner blames me for everything";
+
+"married_title_1" = "Marriage: Decrease Your Arguments at the Source";
+"married_title_2" = "Happy Marriage? Get Back to the Basics";
+"married_title_3" = "Tips for Sharing Your Feelings With Your Spouse";
+"married_title_4" = "How to Repair Your Marriage";
+"married_title_5" = "Relationship Problems? Try Dwelling on the Positive";
 
 // Social screen
 "social_screen_nav_title" = "Community";

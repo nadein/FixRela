@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAE9310421BAFE44008A1145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE930F921BAFE44008A1145 /* Assets.xcassets */; };
 		FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE930FD21BAFE44008A1145 /* AppDelegate.swift */; };
 		FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311821BB2887008A1145 /* SocialVC.swift */; };
 		FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311A21BB2887008A1145 /* HelpVC.swift */; };
@@ -25,11 +24,13 @@
 		FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9313F21BBB562008A1145 /* SocialPostCell.xib */; };
 		FAE9314421BBB91F008A1145 /* HelpTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */; };
 		FAE9314521BBB91F008A1145 /* HelpTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */; };
+		FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9314821BBCB79008A1145 /* LoginVC.swift */; };
+		FAE9314C21BBD088008A1145 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314B21BBD088008A1145 /* Login.storyboard */; };
+		FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314D21BBD10A008A1145 /* Registration.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAE930E121BAFA38008A1145 /* FixRela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixRela.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE930F921BAFE44008A1145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Resources/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		FAE930FD21BAFE44008A1145 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE9311821BB2887008A1145 /* SocialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialVC.swift; sourceTree = "<group>"; };
 		FAE9311A21BB2887008A1145 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		FAE9313F21BBB562008A1145 /* SocialPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialPostCell.xib; sourceTree = "<group>"; };
 		FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTopicCell.swift; sourceTree = "<group>"; };
 		FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpTopicCell.xib; sourceTree = "<group>"; };
+		FAE9314821BBCB79008A1145 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FAE9314B21BBD088008A1145 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FAE9314D21BBD10A008A1145 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,21 +87,12 @@
 				FAE9312B21BBA8F7008A1145 /* Resources */,
 				FAE9312421BBA8EB008A1145 /* Utils */,
 				FAE930FC21BAFE44008A1145 /* AppDelegate */,
-				FAE930F821BAFE44008A1145 /* Assets */,
 				FAE930FE21BAFE44008A1145 /* Managers */,
 				FAE9310321BAFE44008A1145 /* Models */,
 				FAE9310021BAFE44008A1145 /* ViewControllers */,
 				FAE930FF21BAFE44008A1145 /* Views */,
 			);
 			path = FixRela;
-			sourceTree = "<group>";
-		};
-		FAE930F821BAFE44008A1145 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				FAE930F921BAFE44008A1145 /* Assets.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		FAE930FC21BAFE44008A1145 /* AppDelegate */ = {
@@ -127,6 +122,8 @@
 		FAE9310021BAFE44008A1145 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9314721BBCB55008A1145 /* Login */,
+				FAE9314621BBCB55008A1145 /* Registration */,
 				FAE9311921BB2887008A1145 /* Help */,
 				FAE9311721BB2887008A1145 /* Social */,
 			);
@@ -216,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				FAE9312D21BBA8F7008A1145 /* Social.storyboard */,
+				FAE9314B21BBD088008A1145 /* Login.storyboard */,
+				FAE9314D21BBD10A008A1145 /* Registration.storyboard */,
 				FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */,
 				FAE9312F21BBA8F7008A1145 /* Help.storyboard */,
 				FAE9313021BBA8F7008A1145 /* Main.storyboard */,
@@ -245,6 +244,21 @@
 				FAE9313521BBA8F7008A1145 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		FAE9314621BBCB55008A1145 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		FAE9314721BBCB55008A1145 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9314821BBCB79008A1145 /* LoginVC.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,12 +322,13 @@
 				FAE9313721BBA8F7008A1145 /* LaunchScreen.storyboard in Resources */,
 				FAE9313921BBA8F7008A1145 /* Main.storyboard in Resources */,
 				FAE9314521BBB91F008A1145 /* HelpTopicCell.xib in Resources */,
-				FAE9310421BAFE44008A1145 /* Assets.xcassets in Resources */,
 				FAE9313D21BBADE1008A1145 /* Localizable.strings in Resources */,
 				FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */,
+				FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */,
 				FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */,
 				FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */,
 				FAE9313821BBA8F7008A1145 /* Help.storyboard in Resources */,
+				FAE9314C21BBD088008A1145 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +343,7 @@
 				FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */,
 				FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */,
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
+				FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */,
 				FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */,
 				FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */,
 				FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */,

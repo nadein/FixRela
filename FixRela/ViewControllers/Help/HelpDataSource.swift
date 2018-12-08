@@ -10,6 +10,11 @@ import UIKit
 
 private struct Constants {
     static let numberOfHelpCategories: Int = 5
+    static let titles = ["help_topic_first".localized,
+                         "help_topic_second".localized,
+                         "help_topic_third".localized,
+                         "help_topic_fourth".localized,
+                         "help_topic_fifth".localized]
 }
 
 class HelpDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
@@ -20,7 +25,10 @@ class HelpDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeue(HelpTopicCell.self, for: indexPath) as HelpTopicCell
+        let title = Constants.titles[indexPath.row]
+        cell.setupWithTitle(title)
+        return cell
     }
     
 

@@ -8,6 +8,10 @@
 
 import UIKit
 
+private struct Constants {
+    static let navigationTitle = "help_screen_nav_title".localized
+}
+
 class HelpVC: UIViewController {
     
     //MARK: - Properties
@@ -20,10 +24,16 @@ class HelpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewSetup()
+        viewsSetup()
     }
     
     //MARK: - Private methods
+    private func viewsSetup() {
+        navigationItem.title = Constants.navigationTitle
+    }
+    
     private func tableViewSetup() {
+        tableView.register(HelpTopicCell.self)
         tableView.delegate = dataSource
         tableView.dataSource = dataSource
         // reload here

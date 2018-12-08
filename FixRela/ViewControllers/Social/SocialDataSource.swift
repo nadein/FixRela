@@ -20,6 +20,8 @@ class SocialDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeue(SocialPostCell.self, for: indexPath) as SocialPostCell
+        
+        return cell
     }
 }

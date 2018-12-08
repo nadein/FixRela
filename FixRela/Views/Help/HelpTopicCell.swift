@@ -10,19 +10,23 @@ import UIKit
 
 class HelpTopicCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
 // MARK: - Outlets
-    
-    
+    @IBOutlet weak private var titleLabel: UILabel!
     
 // MARK: - UITableViewCell
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.accessoryType = .disclosureIndicator
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    // MARK: - UITableViewCell
+    public func setupWithTitle(_ title: String) {
+        titleLabel.text = title
     }
     
 }

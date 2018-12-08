@@ -4,7 +4,24 @@
 "tab_bar_help_item" = "Help";
 "tab_bar_social_item" = "Social";
 
+// Login screen
+
+
+// Registration screen
+
+
 // Help screen
+"help_screen_nav_title" = "Need help?";
+
+"help_topic_first" = "First";
+"help_topic_second" = "Second";
+"help_topic_third" = "Third";
+"help_topic_fourth" = "Fourth";
+"help_topic_fifth" = "Fifth";
+
+// Help details
+
 
 // Social screen
+"social_screen_nav_title" = "Community";
 

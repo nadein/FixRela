@@ -1,1 +1,10 @@
 "test_str" = "Localized string";
+
+// Tab bar
+"tab_bar_help_item" = "Help";
+"tab_bar_social_item" = "Social";
+
+// Help screen
+
+// Social screen
+

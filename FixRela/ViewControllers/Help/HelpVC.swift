@@ -9,9 +9,24 @@
 import UIKit
 
 class HelpVC: UIViewController {
+    
+    //MARK: - Properties
+    private let dataSource = HelpDataSource()
 
+    //MARK: - Properties
+    @IBOutlet weak var tableView: UITableView!
+    
+    //MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableViewSetup()
+    }
+    
+    //MARK: - Private methods
+    private func tableViewSetup() {
+        tableView.delegate = dataSource
+        tableView.dataSource = dataSource
+        // reload here
     }
     
 }

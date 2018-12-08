@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HelpTopicCell: UITableViewCell {
+class HelpTopicCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
 // MARK: - Outlets
     
     

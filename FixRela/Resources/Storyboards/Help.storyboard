@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Help-->
         <scene sceneID="DTQ-nx-YCu">
             <objects>
                 <navigationController id="daX-Kg-dMr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="sLM-tB-tXM"/>
+                    <tabBarItem key="tabBarItem" title="Help" id="sLM-tB-tXM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UIh-Uz-ZrP">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="1078" y="-273"/>
         </scene>
-        <!--View Controller-->
+        <!--HelpVC-->
         <scene sceneID="RMj-Qi-SG3">
             <objects>
-                <viewController id="ShO-ah-md8" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HelpVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ShO-ah-md8" customClass="HelpVC" customModule="FixRela" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uaT-av-u7f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,9 @@
                         <viewLayoutGuide key="safeArea" id="7tH-Kw-CxL"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ixc-qI-bJz"/>
+                    <connections>
+                        <outlet property="tableView" destination="q5c-8T-8Pn" id="seO-XF-EGE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sxh-XE-Hso" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

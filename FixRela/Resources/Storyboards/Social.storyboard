@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Social-->
         <scene sceneID="suB-hw-FLU">
             <objects>
                 <navigationController id="awc-W5-Zkk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="T43-2N-BUS"/>
+                    <tabBarItem key="tabBarItem" title="Social" id="T43-2N-BUS"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dby-BM-e6o">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="1078" y="403"/>
         </scene>
-        <!--View Controller-->
+        <!--SocialVC-->
         <scene sceneID="9s5-k9-Uij">
             <objects>
-                <viewController id="Qwg-iy-144" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SocialVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qwg-iy-144" customClass="SocialVC" customModule="FixRela" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XwV-pL-VNl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,9 @@
                         <viewLayoutGuide key="safeArea" id="cUV-gU-T7e"/>
                     </view>
                     <navigationItem key="navigationItem" id="CtK-yf-LlZ"/>
+                    <connections>
+                        <outlet property="tableView" destination="O2F-md-uBp" id="wIb-vv-cxX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvw-aL-6Uv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

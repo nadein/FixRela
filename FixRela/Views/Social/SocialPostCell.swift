@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SocialPostCell: UITableViewCell {
+class SocialPostCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
     
     // MARK: - Outlets
     @IBOutlet weak private var iconView: UIImageView!

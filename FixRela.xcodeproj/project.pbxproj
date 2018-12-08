@@ -9,29 +9,45 @@
 /* Begin PBXBuildFile section */
 		FAE9310421BAFE44008A1145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE930F921BAFE44008A1145 /* Assets.xcassets */; };
 		FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE930FD21BAFE44008A1145 /* AppDelegate.swift */; };
-		FAE9310C21BAFE9F008A1145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9310A21BAFE9F008A1145 /* LaunchScreen.storyboard */; };
-		FAE9310D21BAFE9F008A1145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9310B21BAFE9F008A1145 /* Main.storyboard */; };
-		FAE9311421BB2033008A1145 /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9311321BB2033008A1145 /* Help.storyboard */; };
-		FAE9311621BB2046008A1145 /* Social.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9311521BB2046008A1145 /* Social.storyboard */; };
 		FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311821BB2887008A1145 /* SocialVC.swift */; };
 		FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311A21BB2887008A1145 /* HelpVC.swift */; };
 		FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311D21BB2A2D008A1145 /* HelpDataSource.swift */; };
 		FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9311F21BB2A5C008A1145 /* SocialDataSource.swift */; };
+		FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9312621BBA8EB008A1145 /* String+Localized.swift */; };
+		FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9312721BBA8EB008A1145 /* UIKitExtension.swift */; };
+		FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9312D21BBA8F7008A1145 /* Social.storyboard */; };
+		FAE9313721BBA8F7008A1145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */; };
+		FAE9313821BBA8F7008A1145 /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9312F21BBA8F7008A1145 /* Help.storyboard */; };
+		FAE9313921BBA8F7008A1145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9313021BBA8F7008A1145 /* Main.storyboard */; };
+		FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE9313521BBA8F7008A1145 /* Assets.xcassets */; };
+		FAE9313D21BBADE1008A1145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE9313C21BBADE1008A1145 /* Localizable.strings */; };
+		FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9313E21BBB562008A1145 /* SocialPostCell.swift */; };
+		FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9313F21BBB562008A1145 /* SocialPostCell.xib */; };
+		FAE9314421BBB91F008A1145 /* HelpTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */; };
+		FAE9314521BBB91F008A1145 /* HelpTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAE930E121BAFA38008A1145 /* FixRela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixRela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE930F921BAFE44008A1145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAE930FB21BAFE44008A1145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE930FD21BAFE44008A1145 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAE9310A21BAFE9F008A1145 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAE9310B21BAFE9F008A1145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FAE9311321BB2033008A1145 /* Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
-		FAE9311521BB2046008A1145 /* Social.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Social.storyboard; sourceTree = "<group>"; };
 		FAE9311821BB2887008A1145 /* SocialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialVC.swift; sourceTree = "<group>"; };
 		FAE9311A21BB2887008A1145 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
 		FAE9311D21BB2A2D008A1145 /* HelpDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDataSource.swift; sourceTree = "<group>"; };
 		FAE9311F21BB2A5C008A1145 /* SocialDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialDataSource.swift; sourceTree = "<group>"; };
+		FAE9312621BBA8EB008A1145 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		FAE9312721BBA8EB008A1145 /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		FAE9312D21BBA8F7008A1145 /* Social.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Social.storyboard; sourceTree = "<group>"; };
+		FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE9312F21BBA8F7008A1145 /* Help.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
+		FAE9313021BBA8F7008A1145 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAE9313321BBA8F7008A1145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE9313521BBA8F7008A1145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE9313C21BBADE1008A1145 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FAE9313E21BBB562008A1145 /* SocialPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPostCell.swift; sourceTree = "<group>"; };
+		FAE9313F21BBB562008A1145 /* SocialPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialPostCell.xib; sourceTree = "<group>"; };
+		FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTopicCell.swift; sourceTree = "<group>"; };
+		FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpTopicCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +80,12 @@
 		FAE930E321BAFA38008A1145 /* FixRela */ = {
 			isa = PBXGroup;
 			children = (
-				FAE9312121BB2B56008A1145 /* Extentions */,
-				FAE9310921BAFE5E008A1145 /* Storyboards */,
+				FAE9312B21BBA8F7008A1145 /* Resources */,
+				FAE9312421BBA8EB008A1145 /* Utils */,
 				FAE930FC21BAFE44008A1145 /* AppDelegate */,
 				FAE930F821BAFE44008A1145 /* Assets */,
 				FAE930FE21BAFE44008A1145 /* Managers */,
 				FAE9310321BAFE44008A1145 /* Models */,
-				FAE930FA21BAFE44008A1145 /* Plists */,
 				FAE9310021BAFE44008A1145 /* ViewControllers */,
 				FAE930FF21BAFE44008A1145 /* Views */,
 			);
@@ -83,14 +98,6 @@
 				FAE930F921BAFE44008A1145 /* Assets.xcassets */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		FAE930FA21BAFE44008A1145 /* Plists */ = {
-			isa = PBXGroup;
-			children = (
-				FAE930FB21BAFE44008A1145 /* Info.plist */,
-			);
-			path = Plists;
 			sourceTree = "<group>";
 		};
 		FAE930FC21BAFE44008A1145 /* AppDelegate */ = {
@@ -133,17 +140,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FAE9310921BAFE5E008A1145 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				FAE9310A21BAFE9F008A1145 /* LaunchScreen.storyboard */,
-				FAE9310B21BAFE9F008A1145 /* Main.storyboard */,
-				FAE9311521BB2046008A1145 /* Social.storyboard */,
-				FAE9311321BB2033008A1145 /* Help.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		FAE9311721BB2887008A1145 /* Social */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,16 +158,11 @@
 			path = Help;
 			sourceTree = "<group>";
 		};
-		FAE9312121BB2B56008A1145 /* Extentions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extentions;
-			sourceTree = "<group>";
-		};
 		FAE9312221BB2E7D008A1145 /* Help */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9314221BBB91F008A1145 /* HelpTopicCell.swift */,
+				FAE9314321BBB91F008A1145 /* HelpTopicCell.xib */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -179,8 +170,81 @@
 		FAE9312321BB2E7D008A1145 /* Social */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9313E21BBB562008A1145 /* SocialPostCell.swift */,
+				FAE9313F21BBB562008A1145 /* SocialPostCell.xib */,
 			);
 			path = Social;
+			sourceTree = "<group>";
+		};
+		FAE9312421BBA8EB008A1145 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9312521BBA8EB008A1145 /* Extentions */,
+				FAE9312821BBA8EB008A1145 /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAE9312521BBA8EB008A1145 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9312621BBA8EB008A1145 /* String+Localized.swift */,
+				FAE9312721BBA8EB008A1145 /* UIKitExtension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FAE9312821BBA8EB008A1145 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FAE9312B21BBA8F7008A1145 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9312C21BBA8F7008A1145 /* Storyboards */,
+				FAE9313121BBA8F7008A1145 /* Strings */,
+				FAE9313221BBA8F7008A1145 /* Plists */,
+				FAE9313421BBA8F7008A1145 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAE9312C21BBA8F7008A1145 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9312D21BBA8F7008A1145 /* Social.storyboard */,
+				FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */,
+				FAE9312F21BBA8F7008A1145 /* Help.storyboard */,
+				FAE9313021BBA8F7008A1145 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAE9313121BBA8F7008A1145 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9313C21BBADE1008A1145 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		FAE9313221BBA8F7008A1145 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9313321BBA8F7008A1145 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		FAE9313421BBA8F7008A1145 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9313521BBA8F7008A1145 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +305,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE9310C21BAFE9F008A1145 /* LaunchScreen.storyboard in Resources */,
+				FAE9313721BBA8F7008A1145 /* LaunchScreen.storyboard in Resources */,
+				FAE9313921BBA8F7008A1145 /* Main.storyboard in Resources */,
+				FAE9314521BBB91F008A1145 /* HelpTopicCell.xib in Resources */,
 				FAE9310421BAFE44008A1145 /* Assets.xcassets in Resources */,
-				FAE9310D21BAFE9F008A1145 /* Main.storyboard in Resources */,
-				FAE9311621BB2046008A1145 /* Social.storyboard in Resources */,
-				FAE9311421BB2033008A1145 /* Help.storyboard in Resources */,
+				FAE9313D21BBADE1008A1145 /* Localizable.strings in Resources */,
+				FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */,
+				FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */,
+				FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */,
+				FAE9313821BBA8F7008A1145 /* Help.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9314421BBB91F008A1145 /* HelpTopicCell.swift in Sources */,
+				FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */,
+				FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */,
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
 				FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */,
 				FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */,
+				FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */,
 				FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */,
 				FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */,
 			);
@@ -388,7 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FixRela/Plists/Info.plist;
+				INFOPLIST_FILE = FixRela/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FixRela/Plists/Info.plist;
+				INFOPLIST_FILE = FixRela/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

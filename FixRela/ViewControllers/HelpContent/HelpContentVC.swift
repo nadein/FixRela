@@ -11,17 +11,20 @@ import UIKit
 class HelpContentVC: UIViewController {
 
     // MARK: - Properties
-    public var contentProvider: NSObject?
+    public var article: Article = Article(title: "", text: "", image: UIImage())
     
     // MARK: - Outlets
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        titleLabel.text = article.title
+        textView.text = article.text
+        imageView.image = article.image
     }
 
 }

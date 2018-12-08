@@ -32,10 +32,10 @@
 		FAE9315621BBF929008A1145 /* HelpContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315521BBF929008A1145 /* HelpContent.storyboard */; };
 		FAE9315821BBF93D008A1145 /* HelpDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315721BBF93D008A1145 /* HelpDetails.storyboard */; };
 		FAE9315A21BBFD32008A1145 /* HelpDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315921BBFD32008A1145 /* HelpDetailsDataSource.swift */; };
-		FAE9315C21BBFDF9008A1145 /* HelpContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */; };
 		FAE9315F21BBFE5F008A1145 /* HelpDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9315D21BBFE5F008A1145 /* HelpDetailsCell.swift */; };
 		FAE9316021BBFE5F008A1145 /* HelpDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE9315E21BBFE5F008A1145 /* HelpDetailsCell.xib */; };
 		FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9316121BC0311008A1145 /* NavigationDelegate.swift */; };
+		FAE9316421BC1870008A1145 /* ArticleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9316321BC1870008A1145 /* ArticleProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,10 +66,10 @@
 		FAE9315521BBF929008A1145 /* HelpContent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpContent.storyboard; sourceTree = "<group>"; };
 		FAE9315721BBF93D008A1145 /* HelpDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpDetails.storyboard; sourceTree = "<group>"; };
 		FAE9315921BBFD32008A1145 /* HelpDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsDataSource.swift; sourceTree = "<group>"; };
-		FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpContentProvider.swift; sourceTree = "<group>"; };
 		FAE9315D21BBFE5F008A1145 /* HelpDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDetailsCell.swift; sourceTree = "<group>"; };
 		FAE9315E21BBFE5F008A1145 /* HelpDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpDetailsCell.xib; sourceTree = "<group>"; };
 		FAE9316121BC0311008A1145 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
+		FAE9316321BC1870008A1145 /* ArticleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +171,7 @@
 			children = (
 				FAE9311A21BB2887008A1145 /* HelpVC.swift */,
 				FAE9311D21BB2A2D008A1145 /* HelpDataSource.swift */,
+				FAE9316321BC1870008A1145 /* ArticleProvider.swift */,
 			);
 			path = Help;
 			sourceTree = "<group>";
@@ -299,7 +300,6 @@
 			isa = PBXGroup;
 			children = (
 				FAE9315121BBF8D9008A1145 /* HelpContentVC.swift */,
-				FAE9315B21BBFDF9008A1145 /* HelpContentProvider.swift */,
 			);
 			path = HelpContent;
 			sourceTree = "<group>";
@@ -389,6 +389,7 @@
 				FAE9314421BBB91F008A1145 /* HelpTopicCell.swift in Sources */,
 				FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */,
 				FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */,
+				FAE9316421BC1870008A1145 /* ArticleProvider.swift in Sources */,
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
 				FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */,
 				FAE9315221BBF8D9008A1145 /* HelpContentVC.swift in Sources */,
@@ -400,7 +401,6 @@
 				FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */,
 				FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */,
 				FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */,
-				FAE9315C21BBFDF9008A1145 /* HelpContentProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

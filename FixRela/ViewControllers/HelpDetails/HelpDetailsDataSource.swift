@@ -12,25 +12,25 @@ private struct Constants {
     static let defaultNumberOfItems = 6
     static let reducedNumberOfItems = 5
     
-    static let fellTitle1 = "fell_title_1"
-    static let fellTitle2 = "fell_title_2"
-    static let fellTitle3 = "fell_title_3"
-    static let fellTitle4 = "fell_title_4"
-    static let fellTitle5 = "fell_title_5"
-    static let fellTitle6 = "fell_title_6"
+    static let fellTitle1 = "fell_title_1".localized
+    static let fellTitle2 = "fell_title_2".localized
+    static let fellTitle3 = "fell_title_3".localized
+    static let fellTitle4 = "fell_title_4".localized
+    static let fellTitle5 = "fell_title_5".localized
+    static let fellTitle6 = "fell_title_6".localized
     
-    static let inloveTitle1 = "inlove_title_1"
-    static let inloveTitle2 = "inlove_title_2"
-    static let inloveTitle3 = "inlove_title_3"
-    static let inloveTitle4 = "inlove_title_4"
-    static let inloveTitle5 = "inlove_title_5"
-    static let inloveTitle6 = "inlove_title_6"
+    static let inloveTitle1 = "inlove_title_1".localized
+    static let inloveTitle2 = "inlove_title_2".localized
+    static let inloveTitle3 = "inlove_title_3".localized
+    static let inloveTitle4 = "inlove_title_4".localized
+    static let inloveTitle5 = "inlove_title_5".localized
+    static let inloveTitle6 = "inlove_title_6".localized
     
-    static let marriedTitle1 = "married_title_1"
-    static let marriedTitle2 = "married_title_2"
-    static let marriedTitle3 = "married_title_3"
-    static let marriedTitle4 = "married_title_4"
-    static let marriedTitle5 = "married_title_5"
+    static let marriedTitle1 = "married_title_1".localized
+    static let marriedTitle2 = "married_title_2".localized
+    static let marriedTitle3 = "married_title_3".localized
+    static let marriedTitle4 = "married_title_4".localized
+    static let marriedTitle5 = "married_title_5".localized
 }
 
 class HelpDetailsDataSource: NSObject, UITableViewDelegate, UITableViewDataSource {

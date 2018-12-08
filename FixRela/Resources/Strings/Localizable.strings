@@ -13,7 +13,7 @@
 // Help screen
 "help_screen_nav_title" = "Need help?";
 
-"help_topic_first" = "😍 Fall in Love";
+"help_topic_first" = "😍 Fell in Love";
 "help_topic_second" = "💑 In Love";
 "help_topic_third" = "💒 Married";
 "help_topic_fourth" = "🏳️‍🌈 New topics coming soon";
@@ -39,6 +39,27 @@
 "married_title_3" = "Tips for Sharing Your Feelings With Your Spouse";
 "married_title_4" = "How to Repair Your Marriage";
 "married_title_5" = "Relationship Problems? Try Dwelling on the Positive";
+
+// Articles
+"fell_art_1" = "";
+"fell_art_2" = "";
+"fell_art_3" = "";
+"fell_art_4" = "";
+"fell_art_5" = "";
+"fell_art_6" = "";
+
+"inlove_art_1" = "";
+"inlove_art_2" = "";
+"inlove_art_3" = "";
+"inlove_art_4" = "";
+"inlove_art_5" = "";
+"inlove_art_6" = "";
+
+"married_art_1" = "";
+"married_art_2" = "";
+"married_art_3" = "";
+"married_art_4" = "";
+"married_art_5" = "";
 
 // Social screen
 "social_screen_nav_title" = "Community";

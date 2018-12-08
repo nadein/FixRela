@@ -111,6 +111,8 @@
 		FAE930FF21BAFE44008A1145 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9312221BB2E7D008A1145 /* Help */,
+				FAE9312321BB2E7D008A1145 /* Social */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +167,20 @@
 			children = (
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FAE9312221BB2E7D008A1145 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		FAE9312321BB2E7D008A1145 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Social;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

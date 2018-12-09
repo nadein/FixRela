@@ -15,6 +15,7 @@ private struct Constants {
 class SocialDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
     
     let postMan = PostsManager.shared
+    public weak var delegate: NavigationDelegate?
 
     // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -26,5 +27,10 @@ class SocialDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
         let post = postMan.posts[indexPath.row]
         cell.setupWithPost(post)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.setSelected(false, animated: false)
+        self.delegate?.navigateToDetails(indexPath)
     }
 }

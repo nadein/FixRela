@@ -44,6 +44,8 @@
 		FAF20EF421BD05E70033A561 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EF321BD05E70033A561 /* NewPostViewController.swift */; };
 		FAF20EF621BD06A80033A561 /* NewPost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20EF521BD06A80033A561 /* NewPost.storyboard */; };
 		FAF20EF821BD189A0033A561 /* PostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EF721BD189A0033A561 /* PostsManager.swift */; };
+		FAF20EFA21BD23A70033A561 /* PostDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20EF921BD23A70033A561 /* PostDetails.storyboard */; };
+		FAF20EFC21BD27920033A561 /* PostDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EFB21BD27920033A561 /* PostDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		FAF20EF321BD05E70033A561 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		FAF20EF521BD06A80033A561 /* NewPost.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPost.storyboard; sourceTree = "<group>"; };
 		FAF20EF721BD189A0033A561 /* PostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsManager.swift; sourceTree = "<group>"; };
+		FAF20EF921BD23A70033A561 /* PostDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostDetails.storyboard; sourceTree = "<group>"; };
+		FAF20EFB21BD27920033A561 /* PostDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE9312D21BBA8F7008A1145 /* Social.storyboard */,
+				FAF20EF921BD23A70033A561 /* PostDetails.storyboard */,
 				FAF20EF521BD06A80033A561 /* NewPost.storyboard */,
 				FAE9314B21BBD088008A1145 /* Login.storyboard */,
 				FAE9314D21BBD10A008A1145 /* Registration.storyboard */,
@@ -353,6 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF20EF321BD05E70033A561 /* NewPostViewController.swift */,
+				FAF20EFB21BD27920033A561 /* PostDetailsVC.swift */,
 			);
 			path = NewPost;
 			sourceTree = "<group>";
@@ -426,6 +432,7 @@
 				FAE9314121BBB562008A1145 /* SocialPostCell.xib in Resources */,
 				FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */,
 				FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */,
+				FAF20EFA21BD23A70033A561 /* PostDetails.storyboard in Resources */,
 				FAE9315621BBF929008A1145 /* HelpContent.storyboard in Resources */,
 				FAF20EF621BD06A80033A561 /* NewPost.storyboard in Resources */,
 				FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */,
@@ -508,6 +515,7 @@
 				FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */,
 				FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */,
 				FAF20EF121BCEC9F0033A561 /* User.swift in Sources */,
+				FAF20EFC21BD27920033A561 /* PostDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

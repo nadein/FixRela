@@ -47,6 +47,7 @@ class SocialVC: UIViewController {
     
     private func tableViewSetup() {
         tableView.register(SocialPostCell.self)
+        dataSource.delegate = self
         tableView.delegate = dataSource
         tableView.dataSource = dataSource
         // reload here
@@ -58,4 +59,15 @@ class SocialVC: UIViewController {
     }
 
 }
+
+extension SocialVC: NavigationDelegate {
+    func navigateToDetails(_ indexPath: IndexPath) {
+        
+        let vc = UIStoryboard(name: "PostDetails", bundle: nil).instantiateViewController(withIdentifier: "PostDetailsVC") as! PostDetailsVC
+        vc.post = PostsManager.shared.posts[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+
+}
+
 

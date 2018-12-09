@@ -18,17 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FixRela" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2L-DD-ORD">
-                                <rect key="frame" x="160.5" y="323" width="54.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="ZOU-FO-hg2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="K2L-DD-ORD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="EuM-sI-CdC"/>
-                            <constraint firstItem="K2L-DD-ORD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rul-za-pKe"/>
+                            <constraint firstAttribute="bottom" secondItem="ZOU-FO-hg2" secondAttribute="bottom" id="K9s-Xb-EQH"/>
+                            <constraint firstAttribute="trailing" secondItem="ZOU-FO-hg2" secondAttribute="trailing" id="PTV-cN-Tv0"/>
+                            <constraint firstItem="ZOU-FO-hg2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VtQ-lr-Edi"/>
+                            <constraint firstItem="ZOU-FO-hg2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="shD-hG-Ddx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launch" width="720" height="1280"/>
+    </resources>
 </document>

@@ -14,7 +14,7 @@
         <scene sceneID="suB-hw-FLU">
             <objects>
                 <navigationController id="awc-W5-Zkk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Social" id="T43-2N-BUS"/>
+                    <tabBarItem key="tabBarItem" title="Social" image="socialIcon" id="T43-2N-BUS"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dby-BM-e6o">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -59,4 +59,7 @@
             <point key="canvasLocation" x="1910" y="403"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="socialIcon" width="338" height="338"/>
+    </resources>
 </document>

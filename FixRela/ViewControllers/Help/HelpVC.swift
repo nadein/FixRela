@@ -32,6 +32,8 @@ class HelpVC: UIViewController {
     //MARK: - Private methods
     private func viewsSetup() {
         navigationItem.title = Constants.navigationTitle
+        
+        self.tableView.contentInset = UIEdgeInsets(top: 80, left: 0, bottom: 0, right: 0)
     }
     
     private func tableViewSetup() {

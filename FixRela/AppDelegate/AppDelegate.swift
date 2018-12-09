@@ -27,6 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Auth.auth().signIn(withEmail: "sonysun.dev@gmail.com", password: "fixrella2018") { (result, error) in
             if (error != nil) { print(error?.localizedDescription ?? "Auth OK") }
         }
+        
+        if self.window == nil {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+        }
+        
+        RunLoop.current.run(until: Date(timeIntervalSinceNow: 1.0))
+        
         return true
     }
 

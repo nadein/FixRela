@@ -38,6 +38,8 @@ class SocialVC: UIViewController {
     
     //MARK: - Private methods
     private func viewsSetup() {
+        self.tableView.contentInset = UIEdgeInsets(top: 80, left: 0, bottom: 0, right: 0)
+        
         navigationItem.title = Constants.navigationTitle
         
         let rightBarButton = UIBarButtonItem(title: Constants.buttonTitle, style: .done, target: self, action: #selector(self.newPost))

@@ -47,6 +47,8 @@ class HelpDetailsVC: UIViewController {
     }
     
     private func viewsSetup() {
+        self.tableView.contentInset = UIEdgeInsets(top: 80, left: 0, bottom: 0, right: 0)
+        
         switch category {
         case .fellInLove:
             navigationItem.title = "Fell in Love"

@@ -18,14 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="ro7-Ha-ccl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ujM-13-dfm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ujM-13-dfm" secondAttribute="trailing" id="57d-Ct-1Lw"/>
+                            <constraint firstItem="ro7-Ha-ccl" firstAttribute="top" secondItem="nkO-Qs-qHF" secondAttribute="top" id="7e8-8z-n1k"/>
+                            <constraint firstItem="ro7-Ha-ccl" firstAttribute="trailing" secondItem="SNb-zk-1MV" secondAttribute="trailing" id="Krf-Yc-GIW"/>
+                            <constraint firstItem="ro7-Ha-ccl" firstAttribute="bottom" secondItem="SNb-zk-1MV" secondAttribute="bottom" id="VJM-57-Bqs"/>
+                            <constraint firstItem="ro7-Ha-ccl" firstAttribute="leading" secondItem="SNb-zk-1MV" secondAttribute="leading" id="Ye1-rP-c7z"/>
                             <constraint firstItem="SNb-zk-1MV" firstAttribute="bottom" secondItem="ujM-13-dfm" secondAttribute="bottom" id="ccV-SG-qh9"/>
                             <constraint firstItem="ujM-13-dfm" firstAttribute="leading" secondItem="nkO-Qs-qHF" secondAttribute="leading" id="feC-7K-YZe"/>
                             <constraint firstItem="ujM-13-dfm" firstAttribute="top" secondItem="nkO-Qs-qHF" secondAttribute="top" id="r7w-3M-9XA"/>
@@ -41,4 +48,7 @@
             <point key="canvasLocation" x="180" y="51"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launch" width="720" height="1280"/>
+    </resources>
 </document>

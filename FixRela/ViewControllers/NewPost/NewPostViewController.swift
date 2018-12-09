@@ -51,7 +51,7 @@ class NewPostViewController: UIViewController, UITextFieldDelegate {
     // [START single_value_read]
     let title = titleTextField.text ?? "No title"
     let body = bodyTextView.text ?? "No text"
-    let post = Post(uid: "rnd", author: "Alex", title:title , body: body)
+    let post = Post(uid: "rnd", author: "Max", title:title , body: body)
     PostsManager.shared.createPost(post)
     self.navigationController?.popViewController(animated: true)
     // [END single_value_read]

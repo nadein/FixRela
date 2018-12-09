@@ -11,6 +11,9 @@ import UIKit
 private struct Constants {
     static let navigationTitle = "social_screen_nav_title".localized
     static let buttonTitle = "new_post_button_title".localized
+    
+    static let newPostVCID = "NewPostViewController"
+    static let newPostStoryboard = "NewPost"
 }
 
 class SocialVC: UIViewController {
@@ -45,7 +48,8 @@ class SocialVC: UIViewController {
     }
     
     @objc private func newPost() {
-        
+        let newPostVC = UIStoryboard(name: Constants.newPostStoryboard, bundle: nil).instantiateViewController(withIdentifier: Constants.newPostVCID) as! NewPostViewController
+        navigationController?.pushViewController(newPostVC, animated: true)
     }
 
 }

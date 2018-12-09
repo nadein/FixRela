@@ -20,21 +20,31 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yJ-gS-jyw">
-                        <rect key="frame" x="8" y="8" width="370" height="147.5"/>
+                        <rect key="frame" x="100" y="8" width="278" height="147.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gMu-Zh-jau">
+                        <rect key="frame" x="2" y="57" width="80" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="dxI-Wd-j8w"/>
+                            <constraint firstAttribute="width" constant="80" id="j8p-09-Xat"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="gMu-Zh-jau" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CFT-yc-p12"/>
                     <constraint firstAttribute="trailing" secondItem="3yJ-gS-jyw" secondAttribute="trailing" constant="16" id="MeL-6o-iU6"/>
-                    <constraint firstItem="3yJ-gS-jyw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="SLG-an-Q3I"/>
+                    <constraint firstItem="3yJ-gS-jyw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="100" id="SLG-an-Q3I"/>
                     <constraint firstItem="3yJ-gS-jyw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="c5J-VY-KYr"/>
                     <constraint firstAttribute="bottom" secondItem="3yJ-gS-jyw" secondAttribute="bottom" constant="8" id="szr-qb-OvT"/>
+                    <constraint firstItem="gMu-Zh-jau" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="wDs-hu-ew8"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="iconView" destination="gMu-Zh-jau" id="rgU-3S-AUe"/>
                 <outlet property="titleLabel" destination="3yJ-gS-jyw" id="8at-lX-mTc"/>
             </connections>
             <point key="canvasLocation" x="112" y="102.54872563718142"/>

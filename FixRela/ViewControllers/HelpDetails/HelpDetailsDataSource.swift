@@ -12,6 +12,12 @@ private struct Constants {
     static let defaultNumberOfItems = 6
     static let reducedNumberOfItems = 5
     
+    static let marriedImg1 = UIImage(named: "married1")
+    static let marriedImg2 = UIImage(named: "married2")
+    static let marriedImg3 = UIImage(named: "married3")
+    static let marriedImg4 = UIImage(named: "married4")
+    static let marriedImg5 = UIImage(named: "married5")
+    
     static let fellTitle1 = "fell_title_1".localized
     static let fellTitle2 = "fell_title_2".localized
     static let fellTitle3 = "fell_title_3".localized
@@ -65,6 +71,8 @@ class HelpDetailsDataSource: NSObject, UITableViewDelegate, UITableViewDataSourc
         let cell = tableView.dequeue(HelpDetailsCell.self, for: indexPath) as HelpDetailsCell
         
         var title = ""
+        var icon: UIImage? = UIImage()
+        
         switch category {
         case .fellInLove:
             title = titleForFell(indexPath)
@@ -72,9 +80,10 @@ class HelpDetailsDataSource: NSObject, UITableViewDelegate, UITableViewDataSourc
             title = titleForInLove(indexPath)
         case .married:
             title = titleForMarried(indexPath)
+            icon = iconForMarried(indexPath)
         }
         
-        cell.setupWithTitle(title)
+        cell.setupWithTitle(title, icon: icon)
         return cell
     }
     
@@ -130,6 +139,23 @@ class HelpDetailsDataSource: NSObject, UITableViewDelegate, UITableViewDataSourc
             return Constants.marriedTitle5
         default:
             return ""
+        }
+    }
+    
+    func iconForMarried(_ indexPath: IndexPath) -> UIImage? {
+        switch indexPath.row {
+        case 0:
+            return Constants.marriedImg1
+        case 1:
+            return Constants.marriedImg2
+        case 2:
+            return Constants.marriedImg3
+        case 3:
+            return Constants.marriedImg4
+        case 4:
+            return Constants.marriedImg5
+        default:
+            return UIImage()
         }
     }
     

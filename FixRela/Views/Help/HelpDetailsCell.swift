@@ -12,7 +12,7 @@ class HelpDetailsCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
 
     // MARK: - Outlet
     @IBOutlet weak var titleLabel: UILabel!
-    
+    @IBOutlet weak var iconView: UIImageView!
     
     // MARK: - HelpDetailsCell
     override func awakeFromNib() {
@@ -24,7 +24,8 @@ class HelpDetailsCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
     }
     
     // MARK: - Public methods
-    public func setupWithTitle(_ title: String) {
+    public func setupWithTitle(_ title: String, icon: UIImage?) {
         titleLabel.text = title
+        iconView.image = icon
     }
 }

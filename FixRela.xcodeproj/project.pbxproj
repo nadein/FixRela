@@ -41,6 +41,8 @@
 		FAF20EEF21BCEC9F0033A561 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EEC21BCEC9F0033A561 /* Comment.swift */; };
 		FAF20EF021BCEC9F0033A561 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EED21BCEC9F0033A561 /* Post.swift */; };
 		FAF20EF121BCEC9F0033A561 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EEE21BCEC9F0033A561 /* User.swift */; };
+		FAF20EF421BD05E70033A561 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EF321BD05E70033A561 /* NewPostViewController.swift */; };
+		FAF20EF621BD06A80033A561 /* NewPost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20EF521BD06A80033A561 /* NewPost.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		FAF20EEC21BCEC9F0033A561 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		FAF20EED21BCEC9F0033A561 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FAF20EEE21BCEC9F0033A561 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAF20EF321BD05E70033A561 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		FAF20EF521BD06A80033A561 /* NewPost.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPost.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 		FAE9310021BAFE44008A1145 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAF20EF221BD05DA0033A561 /* NewPost */,
 				FAE9315021BBF8C1008A1145 /* HelpContent */,
 				FAE9314F21BBF8C1008A1145 /* HelpDetails */,
 				FAE9314721BBCB55008A1145 /* Login */,
@@ -272,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE9312D21BBA8F7008A1145 /* Social.storyboard */,
+				FAF20EF521BD06A80033A561 /* NewPost.storyboard */,
 				FAE9314B21BBD088008A1145 /* Login.storyboard */,
 				FAE9314D21BBD10A008A1145 /* Registration.storyboard */,
 				FAE9312E21BBA8F7008A1145 /* LaunchScreen.storyboard */,
@@ -338,6 +344,14 @@
 				FAE9315121BBF8D9008A1145 /* HelpContentVC.swift */,
 			);
 			path = HelpContent;
+			sourceTree = "<group>";
+		};
+		FAF20EF221BD05DA0033A561 /* NewPost */ = {
+			isa = PBXGroup;
+			children = (
+				FAF20EF321BD05E70033A561 /* NewPostViewController.swift */,
+			);
+			path = NewPost;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +424,7 @@
 				FAE9314E21BBD10A008A1145 /* Registration.storyboard in Resources */,
 				FAE9313B21BBA8F7008A1145 /* Assets.xcassets in Resources */,
 				FAE9315621BBF929008A1145 /* HelpContent.storyboard in Resources */,
+				FAF20EF621BD06A80033A561 /* NewPost.storyboard in Resources */,
 				FAE9313621BBA8F7008A1145 /* Social.storyboard in Resources */,
 				FAE9313821BBA8F7008A1145 /* Help.storyboard in Resources */,
 				FAE9314C21BBD088008A1145 /* Login.storyboard in Resources */,
@@ -478,6 +493,7 @@
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
 				FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */,
 				FAE9315221BBF8D9008A1145 /* HelpContentVC.swift in Sources */,
+				FAF20EF421BD05E70033A561 /* NewPostViewController.swift in Sources */,
 				FAE9315421BBF8EA008A1145 /* HelpDetailsVC.swift in Sources */,
 				FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */,
 				FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */,
@@ -616,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB3WPRB89L;
 				INFOPLIST_FILE = FixRela/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -634,6 +651,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB3WPRB89L;
 				INFOPLIST_FILE = FixRela/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

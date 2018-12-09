@@ -38,6 +38,9 @@
 		FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9316121BC0311008A1145 /* NavigationDelegate.swift */; };
 		FAE9316421BC1870008A1145 /* ArticleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9316321BC1870008A1145 /* ArticleProvider.swift */; };
 		FAF20EEB21BCE92C0033A561 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAF20EE921BCE9040033A561 /* GoogleService-Info.plist */; };
+		FAF20EEF21BCEC9F0033A561 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EEC21BCEC9F0033A561 /* Comment.swift */; };
+		FAF20EF021BCEC9F0033A561 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EED21BCEC9F0033A561 /* Post.swift */; };
+		FAF20EF121BCEC9F0033A561 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EEE21BCEC9F0033A561 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +79,9 @@
 		FAE9316121BC0311008A1145 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		FAE9316321BC1870008A1145 /* ArticleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleProvider.swift; sourceTree = "<group>"; };
 		FAF20EE921BCE9040033A561 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAF20EEC21BCEC9F0033A561 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FAF20EED21BCEC9F0033A561 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FAF20EEE21BCEC9F0033A561 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,9 @@
 		FAE9310321BAFE44008A1145 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAF20EEC21BCEC9F0033A561 /* Comment.swift */,
+				FAF20EED21BCEC9F0033A561 /* Post.swift */,
+				FAF20EEE21BCEC9F0033A561 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -418,12 +427,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FixRela/Pods-FixRela-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +474,7 @@
 				FAE9314021BBB562008A1145 /* SocialPostCell.swift in Sources */,
 				FAE9312921BBA8EB008A1145 /* String+Localized.swift in Sources */,
 				FAE9316421BC1870008A1145 /* ArticleProvider.swift in Sources */,
+				FAF20EEF21BCEC9F0033A561 /* Comment.swift in Sources */,
 				FAE9312021BB2A5C008A1145 /* SocialDataSource.swift in Sources */,
 				FAE9314921BBCB79008A1145 /* LoginVC.swift in Sources */,
 				FAE9315221BBF8D9008A1145 /* HelpContentVC.swift in Sources */,
@@ -470,8 +484,10 @@
 				FAE9315A21BBFD32008A1145 /* HelpDetailsDataSource.swift in Sources */,
 				FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */,
 				FAE9310621BAFE44008A1145 /* AppDelegate.swift in Sources */,
+				FAF20EF021BCEC9F0033A561 /* Post.swift in Sources */,
 				FAE9311E21BB2A2D008A1145 /* HelpDataSource.swift in Sources */,
 				FAE9316221BC0311008A1145 /* NavigationDelegate.swift in Sources */,
+				FAF20EF121BCEC9F0033A561 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

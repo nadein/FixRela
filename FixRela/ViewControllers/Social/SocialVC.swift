@@ -10,6 +10,7 @@ import UIKit
 
 private struct Constants {
     static let navigationTitle = "social_screen_nav_title".localized
+    static let buttonTitle = "new_post_button_title".localized
 }
 
 class SocialVC: UIViewController {
@@ -30,6 +31,10 @@ class SocialVC: UIViewController {
     //MARK: - Private methods
     private func viewsSetup() {
         navigationItem.title = Constants.navigationTitle
+        
+        let rightBarButton = UIBarButtonItem(title: Constants.buttonTitle, style: .done, target: self, action: #selector(self.newPost))
+        //rightBarButton.tintColor = Constants.greenColor
+        self.navigationItem.rightBarButtonItem = rightBarButton
     }
     
     private func tableViewSetup() {
@@ -37,6 +42,10 @@ class SocialVC: UIViewController {
         tableView.delegate = dataSource
         tableView.dataSource = dataSource
         // reload here
+    }
+    
+    @objc private func newPost() {
+        
     }
 
 }

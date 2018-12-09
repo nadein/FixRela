@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1060497969285-5oci9skuksenb4rdle4fo2h8mcepoeb1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1060497969285-5oci9skuksenb4rdle4fo2h8mcepoeb1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDb8mMVNjlIK6JWOdQY1OeHlt3yUuuyfTo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1060497969285</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alextheawesome.FixRela</string>
+	<key>PROJECT_ID</key>
+	<string>fixrela</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fixrela.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1060497969285:ios:5c64adc2cebca80b</string>
+	<key>DATABASE_URL</key>
+	<string>https://fixrela.firebaseio.com</string>
+</dict>
+</plist>

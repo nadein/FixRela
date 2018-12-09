@@ -27,6 +27,10 @@ class NewPostViewController: UIViewController, UITextFieldDelegate {
   // UIView lifecycle methods
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    bodyTextView.layer.borderColor = UIColor.black.cgColor
+    bodyTextView.layer.borderWidth = 0.5
+    bodyTextView.layer.cornerRadius = 5
 
     // [START create_database_reference]
     self.ref = Database.database().reference()
@@ -45,22 +49,11 @@ class NewPostViewController: UIViewController, UITextFieldDelegate {
 
   @IBAction func didTapShare(_ sender: AnyObject) {
     // [START single_value_read]
-    let userID = Auth.auth().currentUser?.uid
-    ref.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
-      // Get user value
-      let value = snapshot.value as? NSDictionary
-      let username = value?["username"] as? String ?? ""
-      let user = User(username: username)
-
-      // [START_EXCLUDE]
-      // Write new post
-      self.writeNewPost(withUserID: userID!, username: user.username, title: self.titleTextField.text!, body: self.bodyTextView.text)
-      // Finish this Activity, back to the stream
-      _ = self.navigationController?.popViewController(animated: true)
-      // [END_EXCLUDE]
-      }) { (error) in
-        print(error.localizedDescription)
-    }
+    let title = titleTextField.text ?? "No title"
+    let body = bodyTextView.text ?? "No text"
+    let post = Post(uid: "rnd", author: "Alex", title:title , body: body)
+    PostsManager.shared.createPost(post)
+    self.navigationController?.popViewController(animated: true)
     // [END single_value_read]
   }
 

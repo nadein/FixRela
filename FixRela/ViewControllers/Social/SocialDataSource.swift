@@ -13,15 +13,18 @@ private struct Constants {
 }
 
 class SocialDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
+    
+    let postMan = PostsManager.shared
 
     // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Constants.numberOfSocialCategories
+        return postMan.posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue(SocialPostCell.self, for: indexPath) as SocialPostCell
-        
+        let post = postMan.posts[indexPath.row]
+        cell.setupWithPost(post)
         return cell
     }
 }

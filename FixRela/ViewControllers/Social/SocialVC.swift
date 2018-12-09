@@ -31,6 +31,11 @@ class SocialVC: UIViewController {
         viewsSetup()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        tableView.reloadData()
+    }
+    
     //MARK: - Private methods
     private func viewsSetup() {
         navigationItem.title = Constants.navigationTitle

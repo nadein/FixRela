@@ -28,4 +28,9 @@ class SocialPostCell: UITableViewCell, Reusable, InterfaceBuilderPrototypable {
         // Configure the view for the selected state
     }
     
+    public func setupWithPost(_ post: Post) {
+        titleLabel.text = post.author
+        postTextLabel.text = post.title
+    }
+    
 }

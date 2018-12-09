@@ -28,7 +28,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r0B-Ms-T89">
-                                <rect key="frame" x="8" y="154" width="367" height="413"/>
+                                <rect key="frame" x="8" y="154" width="359" height="413"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -65,7 +65,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="uVm-x0-rvA" secondAttribute="trailing" constant="8" id="3jM-sn-eKt"/>
-                            <constraint firstAttribute="trailing" secondItem="r0B-Ms-T89" secondAttribute="trailing" id="ALZ-VL-H5u"/>
+                            <constraint firstAttribute="trailing" secondItem="r0B-Ms-T89" secondAttribute="trailing" constant="8" id="ALZ-VL-H5u"/>
                             <constraint firstItem="qCQ-Mz-jxg" firstAttribute="leading" secondItem="uIs-xN-ajP" secondAttribute="leading" constant="8" id="Bx9-by-LG0"/>
                             <constraint firstItem="n3Z-Zg-mya" firstAttribute="top" secondItem="r0B-Ms-T89" secondAttribute="bottom" constant="16" id="NZV-i6-q5L"/>
                             <constraint firstItem="uVm-x0-rvA" firstAttribute="leading" secondItem="uIs-xN-ajP" secondAttribute="leading" constant="8" id="VyE-X6-pdG"/>

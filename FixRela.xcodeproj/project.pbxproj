@@ -43,6 +43,7 @@
 		FAF20EF121BCEC9F0033A561 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EEE21BCEC9F0033A561 /* User.swift */; };
 		FAF20EF421BD05E70033A561 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EF321BD05E70033A561 /* NewPostViewController.swift */; };
 		FAF20EF621BD06A80033A561 /* NewPost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF20EF521BD06A80033A561 /* NewPost.storyboard */; };
+		FAF20EF821BD189A0033A561 /* PostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF20EF721BD189A0033A561 /* PostsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		FAF20EEE21BCEC9F0033A561 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FAF20EF321BD05E70033A561 /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		FAF20EF521BD06A80033A561 /* NewPost.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPost.storyboard; sourceTree = "<group>"; };
+		FAF20EF721BD189A0033A561 /* PostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		FAE930FE21BAFE44008A1145 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FAF20EF721BD189A0033A561 /* PostsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 				FAF20EF421BD05E70033A561 /* NewPostViewController.swift in Sources */,
 				FAE9315421BBF8EA008A1145 /* HelpDetailsVC.swift in Sources */,
 				FAE9311C21BB2887008A1145 /* HelpVC.swift in Sources */,
+				FAF20EF821BD189A0033A561 /* PostsManager.swift in Sources */,
 				FAE9311B21BB2887008A1145 /* SocialVC.swift in Sources */,
 				FAE9315A21BBFD32008A1145 /* HelpDetailsDataSource.swift in Sources */,
 				FAE9312A21BBA8EB008A1145 /* UIKitExtension.swift in Sources */,
